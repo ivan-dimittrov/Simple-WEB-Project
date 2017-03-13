@@ -1,0 +1,136 @@
+@CHARSET "UTF-8";
+
+body{
+	background-color: black;
+}
+h1,h2{
+	color:white;
+	text-align: center;
+}
+#header{
+	width: 100%;
+	height: 400px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+#header h1{
+	font-family: 'Bangers', cursive;
+	font-weight: lighter;
+	font-size: 35px;
+	background-color: black;
+	margin:0px 0px 0px 0px;
+}
+
+#headerBackground{
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+	height: 350px;
+	background-image: url("img/collage.jpg");
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#formContainer{
+	width: 100%;
+	height: 100px;
+	margin:0px 0px 0px 0px;
+}
+
+#formContainer h2{
+	font-family:'Carter One', cursive;
+	font-weight:lighter;
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+}
+
+#formContainer form{
+	margin:0 auto;
+	width: 200px;
+	height: 60px;
+	border-radius: 2px;
+	
+}
+
+form input{
+	height: 30px;
+	width: 98%;
+	border:none;
+	border-radius: 4px;
+	margin-bottom: 3px;
+	margin:0px 0px 0px 0px;
+}
+
+.button {
+	 display: inline-block;
+	 border-radius: 4px;
+	 background-color: #0093D1;
+	 border: none;
+	 color: #FFFFFF;
+	 text-align: center;
+	 font-size: 16px;
+	 font-family:'Carter One', cursive;
+	 width: 98%;
+	 transition: all 0.5s;
+	 cursor: pointer;
+	 margin: 3px 0px 0px 0px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+table{
+	border-collapse: collapse;
+	width:100%;
+	background-color: white;
+}
+
+th{
+	font-size:20px;
+	height: 40px;
+}
+td{
+	font-size: 18px;
+	text-align:center;
+	vertical-align: top;
+}
+#tdPoster{
+	width:200px; 
+	height:300px; 
+}
+#tdPlot{
+	width: 25%;
+}
+#tdPoster img{
+	width: 100%;
+}
+th, td{
+	border:2px solid black;
+}
